@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(30),
                   color: Colors.transparent,
                   image: const DecorationImage(
-                    image: AssetImage('assets/user.png'),
+                    image: AssetImage('assets/author.jpg'),
                   ),
                 ),
               ),
@@ -99,12 +99,12 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Text('Welcome Back, Muhammad Irfan',
                       style: kPoppinsBold.copyWith(
-                        fontSize: SizeConfig.blockSizeHorizontal! * 4,
+                        fontSize: SizeConfig.blockSizeHorizontal! * 3.2,
                       )),
                   Text('Monday, 3 October',
                       style: kPoppinsRegular.copyWith(
                         color: kGrey,
-                        fontSize: SizeConfig.blockSizeHorizontal! * 3,
+                        fontSize: SizeConfig.blockSizeHorizontal! * 2.8,
                       )),
                 ],
               ),
@@ -153,7 +153,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                    color: kLightBlue,
+                    color: kBlue,
                     borderRadius: BorderRadius.circular(kBorderRadius),
                   ),
                   child: IconButton(
@@ -229,7 +229,7 @@ class HomeScreen extends StatelessWidget {
                             borderRadius: BorderRadius.circular(kBorderRadius),
                             image: const DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage('assets/danau.webp'),
+                              image: AssetImage('assets/maldives2.jpg'),
                             ),
                           ),
                         ),
@@ -237,7 +237,7 @@ class HomeScreen extends StatelessWidget {
                       const SizedBox(height: 18),
                       Flexible(
                         child: Text(
-                          'Lake Toba - Uniqure, unmatched. There is no other place like Bali in this world.',
+                          'Maldives - Uniqure, unmatched. There is no other place like Bali in this world.',
                           style: kPoppinsBold.copyWith(
                             fontSize: SizeConfig.blockSizeHorizontal! * 3.5,
                           ),
@@ -357,7 +357,7 @@ class HomeScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(kBorderRadius),
                         image: const DecorationImage(
                           fit: BoxFit.cover,
-                          image: AssetImage('assets/danau.webp'),
+                          image: AssetImage('assets/maldives2.jpg'),
                         ),
                       ),
                       child: SvgPicture.asset(

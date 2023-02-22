@@ -14,6 +14,8 @@ const Color kLighterBlue = Color(0xffc1d4f9);
 
 const Color kDarkBlue = Color(0xff19202d);
 
+const Color kBorderColor = Color(0xffEEEEEE);
+
 const double kBorderRadius = 16.0;
 
 final kBorder = OutlineInputBorder(
